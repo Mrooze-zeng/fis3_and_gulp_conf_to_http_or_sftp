@@ -1,0 +1,2 @@
+# fis3_and_gulp_conf_to_http_or_sftp
+fis3和gulp的相关配置，使其能上传项目文件至远程服务器目录中
