@@ -1,0 +1,28 @@
+{
+  "buildPath":"你打包项目的文件路径（路径后请添加**）",
+  "projectName":"你的项目名，与服务器中存放项目的文件夹名一致",
+  "qa_http":{
+	"host":"产品环境服务器地址",
+	"port":"服务器端口",
+	"remotePath":"服务器中存放项目的文件夹"
+  },
+  "test_http":{
+	"host":"测试环境服务器地址",
+	"port":"服务器端口",
+	"remotePath":"服务器中存入项目的文件夹" 
+   },
+  "qa_sftp":{
+	"host":"产品环境服务器地址",
+	"user":"服务器用户名",
+	"password":"服务器密码",
+	"port":服务器端口（number）,
+	"remotePath":"服务器中存入项目的文件夹"
+  },
+  "test_sftp":{
+	"host":"测试环境服务器地址",
+	"user":"服务器用户名",
+	"password":"服务器密码",
+	"port":服务器端口（number）,
+	"remotePath":"服务器中存入项目的文件夹"
+  }
+}

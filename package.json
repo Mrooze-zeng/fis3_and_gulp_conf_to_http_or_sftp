@@ -1,0 +1,33 @@
+{
+  "name": "sftp-http-deploy",
+  "version": "1.0.0",
+  "description": "deploy project with fis3 or gulp",
+  "main": "main.js",
+  "scripts": {
+    "qaHttp": "node node_modules/fis3/bin/fis.js release qaHttp",
+    "testHttp":"node node_modules/fis3/bin/fis.js release testHttp",
+    "qaSftp":"node node_modules/fis3/bin/fis.js release qaSftp",
+    "testSftp":"node node_modules/fis3/bin/fis.js release testSftp",
+    "gulpQa":"node node_modules/gulp/bin/gulp.js qaSftp",
+    "gulpTest":"node node_modules/gulp/bin/gulp.js testSftp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrooze-zeng"
+  },
+  "keywords": [
+    "fis3",
+    "gulp",
+    "sftp",
+    "http-push",
+    "deploy"
+  ],
+  "author": "mrooze",
+  "license": "ISC",
+  "devDependencies": {
+    "fis3": "^3.4.32",
+    "fis3-deploy-sftp": "^1.0.1",
+    "gulp": "^3.9.1",
+    "gulp-sftp": "^0.1.5"
+  }
+}
